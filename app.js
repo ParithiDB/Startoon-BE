@@ -4,7 +4,7 @@ const APP_SERVER = express();
 
 
 APP_SERVER.get('/',(req,res,next) => {
-    res.send('<h1>URL SHORTENER TASK</h1>')
+    res.send('<h1>Startoon</h1>')
 });
 APP_SERVER.use('/signup', require('./controllers/SignUp.controller'));
 APP_SERVER.use('/users', require('./controllers/users.controller'));
